@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS</title>
+    <style>
+        #btn-1{
+            color: blue;
+        }
+      .btn {
+            color: red;
+        }
+        button {
+            color: yellow;
+        }
+
+        .parent {
+            height: 200px;
+            display: flex;
+            align-items: center;
+        
+        }
+        div {
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            border: 1px solid black;
+            background-color: yellow;
+        }
+
+        .child {
+            width: 300px;
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <button class="btn" id="btn-1" style="color: aqua;">Click</button>
+
+    <hr>
+
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+    </div>
+    
+</body>
+</html>

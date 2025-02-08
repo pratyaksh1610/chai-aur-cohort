@@ -1,0 +1,34 @@
+/* inlne and block elements */
+/* p {
+    background-color: aliceblue;
+} */
+
+h6{
+    background-color: cyan;
+}
+
+a {
+    background-color: greenyellow;
+}
+
+
+.hello {
+    background-color: blue;
+    color: white;
+}
+
+#asd {
+  color: red;  
+}
+
+.bg-yellow {
+    background-color: yellow;
+} 
+
+.color-black {
+    color: black;
+}
+
+.video-class {
+    border: 10px solid green;
+}

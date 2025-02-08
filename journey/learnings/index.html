@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta data and css link -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="First website" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- content of website -->
+
+    <h1>My Bookmarks - 1</h1>
+    <h2>My Bookmarks - 2</h2>
+    <h3>My Bookmarks - 3</h3>
+    <h4>My Bookmarks - 4</h4>
+    <h5>My Bookmarks - 5</h5>
+    <h6>My Bookmarks - 6</h6>
+
+    <h1>My paragraph</h1>
+
+    <!-- lorem50 gives 50 word para -->
+    <!-- inline CSS as attribute-->
+    <p style="background-color: aqua">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+      consectetur inventore accusamus commodi hic, eum rem dolorum, quaerat
+      corrupti similique cum a optio, cumque obcaecati facilis? Neque adipisci
+      voluptatum repudiandae suscipit expedita ipsum sit dolore reiciendis, quia
+      quasi excepturi exercitationem ducimus accusantium, itaque optio? Possimus
+      porro dicta perferendis eaque quaerat!
+    </p>
+
+    <p style="background-color: antiquewhite">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, atque
+      tenetur illum aspernatur cumque velit repellendus molestias nesciunt
+      molestiae optio deleniti, impedit obcaecati, quisquam corrupti assumenda
+      sed odio minima! Itaque.
+    </p>
+
+    <h1>My Bookmark Manager</h1>
+
+    <h2>Primary bookmarks</h2>
+
+    <p>
+      <a href="https://www.google.com" target="_blank">Open Google</a>
+    </p>
+
+    <p><a href="https://www.youtube.com" target="_blank">Open Youtube</a></p>
+
+    <h2>Jerry image</h2>
+    <!-- in pixels width and height -->
+    <img src="jerry.jpg" alt="jerry image" height="200" />
+
+    <h2>Tables</h2>
+
+    <table>
+      <caption style="border: 2px dotted green">
+        My table
+      </caption>
+
+      <tr>
+        <thead>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Language</th>
+        </thead>
+      </tr>
+
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td colspan="2">John</td>
+          <td>C++</td>
+        </tr>
+
+        <tr>
+          <td>2.</td>
+          <td>Doe</td>
+          <td>22</td>
+          <td>Java</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Ron</td>
+          <td>12</td>
+          <td>Python</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Lists</h2>
+
+    <h4>Unordered List</h4>
+    <ul>
+      <li>Doe</li>
+      <li>John</li>
+      <li>Harry</li>
+    </ul>
+
+    <ul type="square">
+      <li>Doe</li>
+      <li>John</li>
+      <li>Harry</li>
+    </ul>
+
+    <h4>Ordered List</h4>
+
+    <ol>
+      <li>Doe</li>
+      <li>John</li>
+      <li>Harry</li>
+    </ol>
+    <ol type="I">
+      <li>Doe</li>
+      <li>John</li>
+      <li>Harry</li>
+    </ol>
+
+    <ol type="A">
+      <li>Doe</li>
+      <li>John</li>
+      <li>Harry</li>
+    </ol>
+
+    <h4>Definition List</h4>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+        quisquam amet a, quibusdam ipsa voluptates voluptas quas. Nam corporis
+        laudantium sed error sit quia minima unde autem neque debitis
+        necessitatibus id eaque pariatur aliquid, fugit, a nesciunt?
+        Reprehenderit, accusamus aut.
+      </dd>
+
+      <dt>CSS</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+        quisquam amet a, quibusdam ipsa voluptates voluptas quas. Nam corporis
+        laudantium sed error sit quia minima unde autem neque debitis
+        necessitatibus id eaque pariatur aliquid, fugit, a nesciunt?
+        Reprehenderit, accusamus aut.
+      </dd>
+
+      <dt>Javascript</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+        quisquam amet a, quibusdam ipsa voluptates voluptas quas. Nam corporis
+        laudantium sed error sit quia minima unde autem neque debitis
+        necessitatibus id eaque pariatur aliquid, fugit, a nesciunt?
+        Reprehenderit, accusamus aut.
+      </dd>
+    </dl>
+
+    <h2>Forms in HTML</h2>
+
+    <form action="post">
+      <div>
+        <!-- 'for' and 'id' should match -->
+        <label for="usernameId">Username</label>
+        <input
+          id="usernameId"
+          type="text"
+          name="username"
+          placeholder="John Doe"
+          autofocus
+        />
+      </div>
+      <div>
+        <label for="passwordId">Password</label>
+        <input type="password" id="passwordId" />
+      </div>
+
+      <div>
+        <!-- name is same i.e gender so that only one is selected -->
+        <input type="radio" name="gender" id="maleId" value="male" />
+        <label for="maleId">Male</label>
+
+        <input
+          type="radio"
+          name="gender"
+          id="femaleId"
+          value="female"
+          required
+        />
+        <label for="femaleId">Female</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="subscribeId" />
+        <label for="subscribeId">Subcribe to news letter</label>
+      </div>
+
+      <div>
+        <label for="textArea">Summary</label>
+        <br />
+        <textarea
+          id="textArea"
+          cols="30"
+          rows="5"
+          placeholder="Summary...."
+        ></textarea>
+      </div>
+
+      <div>
+        <!-- dropdown menu -->
+        <select name="Programming languages" id="programmingLanguage">
+          <option value="c++">C++</option>
+          <option value="scala">Scala</option>
+          <option value="python">Python</option>
+          <option value="javascript">Javascript</option>
+          <option value="PHP">PHP</option>
+        </select>
+      </div>
+    </form>
+
+    <!-- inline and block elements -->
+    <!-- inline  - take width which is required -->
+    <!-- block -  takes full width just like match parent -->
+    <br /><br />
+    <div>I am a block element - div</div>
+    <span> I am a span element - span </span>
+
+    <h2>Quiz - 1</h2>
+
+    <form action="post">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="John Doe" />
+      </div>
+      <div>
+        <label for="city">City</label>
+        <input type="text" id="city" />
+      </div>
+      <div>
+        <label for="pincode">Pincode</label>
+        <input type="number" id="pincode" />
+      </div>
+
+      <div>
+        <input type="submit" id="submit" />
+      </div>
+    </form>
+
+    <!-- id is unique
+    class - multiple tags can be given same property i.e classes -->
+
+    <h2>Id and Classes</h2>
+
+    <div class="red" id="div1">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="red" id="div2">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <span class="red" id="span1">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </span>
+
+    <!-- id is also used for linking and for focus if we mention
+    id using #id_of_element in URL -->
+    <span class="red" id="span2">
+      <p>Lorem ipsum dolor sit amet.</p>
+    </span>
+
+    <h2>Audio, Video, Media elements</h2>
+
+    <video
+      src="https://www.youtube.com/watch?v=4-Y0r7aIZJQ"
+      width="300"
+      controls
+      poster="jerry.jpg"
+    ></video>
+
+    <!-- preload attribute - pehle se data fetch krle browser ya nahi -->
+    <audio src="/demo.mp3" controls autoplay muted preload="none"></audio>
+
+    <!-- to embed other websites/pages -->
+    <div>
+      <iframe
+        src=""
+        frameborder="0"
+        width="600"
+        height="600"
+      ></iframe>
+    </div>
+
+    <div>
+      <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+    <h2>Quiz - 2</h2>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS</title>
+    <style>
+        /* element selector */
+        div {
+            color: red;
+            background-color: yellow;
+            font-size: 30px;
+        }
+
+        h1 {
+            color: green;
+            background-color: yellow;
+            font-size: 30px;
+        }
+
+        /* class selector */
+        .red {
+            background-color: red;
+        }
+
+        /* child selector */
+        div > article > p{
+            color: blue;
+        }
+
+        /* descendent selector */
+        /* any `p` inside `span` will have these properties */
+        span p  {
+            color: blueviolet;
+        }
+
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* pseudo selectors */
+        a:hover{
+            color: red;
+        }
+
+        #h44 {
+            background-color: blue;
+            display: inline;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin: 30px;
+            border: 2px solid red;
+            
+        }
+
+        #fontP {
+            margin: 50px;
+            color: red;
+            background-color: yellow;
+            font-size: 30px;
+            font-weight: 700;
+            font-style: italic;
+
+        }
+
+        #textp {
+            text-decoration-color: rgb(3, 245, 100);
+            text-transform: capitalize;
+            text-decoration:underline;
+            text-decoration-style: dashed;
+            
+        }
+
+    
+
+    </style>
+</head>
+<body>
+
+    <h1 class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sunt.</h1>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, possimus.</div>
+    
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, possimus.</div>
+    
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, possimus.</div>
+
+    <div>
+        <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, minima.</p>
+        </article>
+    </div>
+
+    <span>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, veritatis!</p>
+        </div>
+    </span>
+    
+    <a href="https://www.google.com">Visit Google</a>
+
+    <br><br><br><br>
+
+
+    <h4 id = 'h44'>Hellow world</h4>
+    
+    <p id = 'fontP'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nihil!</p>
+
+    <p id = 'textp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod blanditiis aut sint voluptatem cupiditate dignissimos dolores consequuntur ducimus ab.</p>
+
+
+
+
+
+    
+</body>
+</html>

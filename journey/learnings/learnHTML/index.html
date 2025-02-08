@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        button {
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            font-weight: 600;
+            cursor: crosshair;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+        button {
+            border: 3px solid red;
+        }
+        button {
+            border: 3px solid blue;
+        }
+        
+/* top to bottom browser reads and overlaps the properties , button will be blue now */
+
+        p {
+            background-color: aqua;
+            font-size: 30px;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+      voluptatum?
+    </h1>
+    <h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, porro?
+    </h2>
+    <h3>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, similique!
+    </h3>
+    <h4>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+      dignissimos.
+    </h4>
+    <h5>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+      tempora.
+    </h5>
+    <h6>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+      officia!
+    </h6>
+
+    <hr />
+
+    <p class="hello">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores libero
+      est placeat porro reiciendis saepe eum minima labore maxime nam doloribus
+      praesentium obcaecati, pariatur eos non quos impedit rem ipsum hic,
+      aperiam, veritatis quo. Facilis libero doloremque dicta veritatis,
+      consectetur hic dolorem corrupti ullam consequatur, incidunt laborum
+      deserunt possimus corporis iusto, at provident delectus magni! Tempora
+      maxime vel voluptatibus blanditiis et eum perspiciatis corrupti possimus
+      laudantium reprehenderit quis obcaecati consequatur ut in provident quam
+      voluptate, eos eius necessitatibus aut! Quaerat voluptatum delectus
+      magnam, vero a commodi? Nemo ipsum esse, sint, quis ullam dolorum repellat
+      dolor iure hic excepturi modi commodi.
+    </p>
+
+    <br />
+
+    <p style="color: red; text-decoration:underline;" id = "asd">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+      exercitationem cupiditate eum porro in? Exercitationem ut voluptate sit
+      consequatur ullam voluptatibus, provident dolorem quis qui autem ipsum
+      quod tenetur nihil, dolore animi. Quaerat sit veritatis vero non,
+      perspiciatis, esse unde quam eveniet repellendus eum nemo ab nihil aperiam
+      suscipit incidunt adipisci nobis qui, similique dolorem delectus.
+      Voluptatibus cupiditate a neque. Dolorem vitae dolore eum numquam nesciunt
+      odit nobis deserunt ut sequi, ipsum itaque illo facilis quisquam iusto
+      perferendis ipsam reiciendis ullam eaque repellendus, modi labore
+      asperiores accusantium consectetur voluptas? Nemo adipisci quae dolore
+      odit architecto reiciendis laboriosam doloribus ullam. Ipsum?
+    </p>
+
+    <ol>
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Mango</li>
+    </ol>
+    <ul>
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li><a href="https://www.github.com" target="_blank">Github</a></li>
+      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    </ul>
+
+    <img src="/jerry.jpg" alt="logo" width="200" />
+
+    <h2>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, ullam.
+    </h2>
+
+    <table border="1">
+      <!-- time table , 5 row , 3 column -->
+
+      <tr>
+        <th>ABC</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+        <th>A</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td colspan="2">9</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td colspan="4">4</td>
+        <!-- <td colspan="">5</td> -->
+        <!-- <td>6</td>
+            <td>7</td> -->
+        <td colspan="2">9</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td colspan="2">9</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td colspan="2">9</td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td colspan="3">3</td>
+        <!-- <td>4</td>
+            <td>5</td> -->
+        <td>6</td>
+        <td>7</td>
+        <td colspan="2">9</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+
+    <form action="" method="POST">
+      <label for="username">Name :</label>
+      <input type="text" name="" id="username" placeholder="John Doe" />
+
+      <label for="password">Password :</label>
+      <input type="password" name="" id="password" autofocus />
+
+      <div>
+        <!-- both input has same name, so only one is selected -->
+        <!-- 'for' and 'id' must match to connect them -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" />
+      </div>
+
+      <div>
+        <label for="textArea">Enter a comment</label>
+        <textarea
+          name=""
+          id="textArea"
+          placeholder="Enter comment..."
+          rows="10"
+          cols="10"
+        ></textarea>
+      </div>
+    </form>
+    <br />
+    <hr />
+
+    <!-- form for a user asking for name , city, and pincode -->
+
+    <form action="POST">
+      <div>
+        <label for="name">Enter name :</label>
+        <input type="text" name="" id="name" placeholder="Josh Doe" />
+      </div>
+      <div>
+        <label for="city">Enter city :</label>
+        <input type="text" name="" id="city" placeholder="NYC" />
+      </div>
+      <div>
+        <label for="pincode">Enter pincode :</label>
+        <input type="text" name="" id="pincode" placeholder="11432" />
+      </div>
+    </form>
+
+    <!-- one element can have multiple 'classes', but 'id' is applied to one element only -->
+    <div class = "bg-yellow color-black">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, blanditiis?</p>
+    </div>
+
+
+    <div>
+
+        <iframe  class ="video-class" width="300" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=NMvPeZROCFLMICZl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+    </div>
+
+    <div>
+        <code>
+            fdsfds
+            fdsfdsdsf
+            ds
+        </code>
+    </div>
+
+    <button style="color: black;">Click</button>
+    <button disabled="disabled">Click</button>
+    <button type="reset" style="border: 4px solid green;">Click</button>
+    <button type="submit">Click</button>
+
+
+  </body>
+</html>

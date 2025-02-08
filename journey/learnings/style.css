@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    color: black;
+}
+img{
+    padding: 5px;
+    border: 3px solid #b90707;
+}
+
+td{
+    padding: 5px;
+    border: 3px solid green;
+}
+
+p{
+    background-color: #a57e7e;
+}
+h1{
+    background-color: #a57e7e;
+}
+a{
+    background-color: #2df351;
+}
+
+div{
+    background-color: #2df351;
+
+}
+span{
+    background-color: #2df351;
+
+}
+
+/* add . before class */
+.red{
+    color: #c6f204;
+}
+
+/* for id use # */
+#div1{
+    color: #4721ec;
+}
+
+iframe{
+    margin: 5%;
+}
