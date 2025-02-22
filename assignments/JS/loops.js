@@ -40,3 +40,12 @@ function totalPrice(prices) {
     return cost; 
 }
 console.log(totalPrice([4,3,5.3]));
+
+
+function printPattern(n){
+    for(let i = 1;i <= n;i++) {
+        let stars = '*'.repeat(n-i+1);
+        console.log(stars);
+    }
+}
+printPattern(4);
