@@ -1,0 +1,397 @@
+@font-face {
+    src: url(./fonts/UberMoveMedium.otf);
+    font-family: Uberfont;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-parent {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.nav-bar-child {
+    color: white;
+    font-family: UberFont;
+    flex-grow: 1;
+
+}
+
+.nav-bar-parent-left {
+    
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.nav-bar-child-left {
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.uber-txt {
+    padding: 7px;
+    font-size: 22px;
+}
+
+.nav-bar-parent-right {
+
+    justify-content: right;
+    display: flex;
+    margin-right: 150px;
+}
+
+.nav-bar-child-right {
+    
+    padding: 10px;
+    color: white;
+}
+
+.sign-up-btn {
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+}
+
+.main-parent {
+    margin: 10px 145px 10px 105px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-child {
+    font-family: UberFont;
+    font-weight: 100;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+
+
+.section-1 {
+    background-color: white;
+    display: flex;
+}
+
+.section-1-img {
+    justify-items: center;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.section-1-child {
+    flex-grow: 1;
+}
+
+.section-1-child-parent {
+    margin-top: 100px;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.request-a-ride-text {
+    color: black;
+    font-size: 50px;
+    width: 400px;
+    font-weight: 600;
+    font-family: UberFont;
+}
+
+.add-trip-txt {
+    color: #333333;
+    font-size: 16px;
+    width: 400px;
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: UberFont;
+}
+
+
+
+.loc-flex {
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    padding: 15px 24px;
+    width: 350px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.loc-text {
+    color: #5e5e5e;
+    flex-grow: 1;
+    font-family: UberFont;
+}
+
+.btn-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.see-prices-btn {
+    font-family: UberFont;
+    margin-right: 115px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.see-prices-schedule-later-btn {
+    padding: 20px;
+}
+
+.schedule-btn {
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 25px;
+   background-color: #f3f3f3;
+    padding: 15px;
+    font-family: UberFont;
+}
+
+.suggestions-txt {
+    font-family: UberFont;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+.suggest-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.suggest-flex-child{
+    width: 320px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    height: 160px;
+}
+
+.suggestions-div {
+    margin: 100px 50px;
+}
+
+.flex-suggest-child{
+    display: flex;
+    flex-direction: row;
+}
+
+.ride-txt {    
+    margin-top: 0px;
+    flex-grow: 1;
+    font-family: UberFont;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.car-img {
+    margin-top: 30px;
+}
+
+.ride-flex {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ride-flex-items {
+    padding: 5px;
+    width: 150px;
+}
+
+.go-txt{
+    font-variant-caps: rgb(0,0,0);
+    font-weight: 500;
+    font-size: 12px;
+    height: 50px;
+}
+
+.details-btn {
+    width: 50px;
+    /* margin-top: 10px; */
+    font-family: UberFont;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+.section-2 {
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    margin: 100px;
+    display: flex;
+}
+
+
+.section-2-items-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-items-flex-child{
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+}
+
+.ride-with-txt {
+    width: 300px;
+    font-family: UberFont;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.riding-txt {
+    font-family: UberFont;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.learn-more-txt {
+    margin-top: 30px;
+    font-family: UberFont;
+    font-family: 500;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.use-uber-app-text {
+    font-weight: 700;
+    font-family: UberFont;
+    font-size: 35px;
+}
+
+.section-3-div {
+    margin: 40px 150px;
+}
+
+.cards-flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.cards-flex-items {
+    width: 300px;
+
+}
+
+.cards-flex-items-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ride-options-text {
+    font-family: UberFont;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.ride-options-subtext {
+    font-family: UberFont;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.search-ride-options-btn {
+    
+    font-family: UberFont;
+    font-size: 15px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.looking-for-business-div {
+    background-color: black;
+}
+.business-flex {
+    margin: 100px;
+    display: flex;
+}
+
+.business-flex-items {
+    flex-grow: 1;
+    margin: 100px;
+    color: white;
+}
+.business-flex-items-flex {
+    display: flex;
+    font-family: UberFont;
+    font-weight: 700;
+    font-size: 35px;
+    flex-direction: column;
+}
+
+.business-flex-items-flex-txt {
+    font-size: 18px;
+    font-family: UberFont;
+    font-weight: 500;
+}
+
+.business-text {
+    margin-bottom: 30px;
+    font-family: UberFont;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.list-design-li {
+    margin-top: 15px;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+.get-started-btn {
+    margin-top: 30px;
+    color: black;
+    width: 100px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.checkout-for-soln-txt {
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.get-started-checkout {
+    margin-top: 50px;
+}
