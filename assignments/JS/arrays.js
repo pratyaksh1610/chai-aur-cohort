@@ -55,3 +55,46 @@ while (i <= j) {
     i++,j--;
 }
 console.log(teas);
+
+
+function addGuest(guestList, newGuest) {
+    // Add the newGuest to guestList and return the updated list
+    guestList.push(newGuest);
+    return guestList;
+}
+console.log(addGuest([3,2,4],5));
+
+function addPuppy(queue, puppyName) {
+    // Add puppyName at the beginning of queue and return updated queue
+    queue.unshift(puppyName);
+    return queue;
+}
+console.log(addPuppy([23,2,4],4));
+
+function removeStudent(bus) {
+    // Remove the first student and return the updated bus list
+    bus.splice(0,1);
+    return bus;
+}
+console.log(removeStudent([1,2,3,4,5]));
+
+function book(books) {
+    // sort it
+    books.sort();
+    return books;
+}
+console.log(book([3,2,4,434,434,-1]));
+
+function filterHealthy(foodList) {
+    // Remove unhealthy food and return updated list, that has "Burger"
+    let updated = foodList.filter((food) => (food !=="Burger"))
+    return updated;
+}
+console.log(filterHealthy(["Burger","Pizza","Maggi"]));
+
+function findPhone(items) {
+    // Return the index of "Phone" in the items array
+    return items.indexOf("Phone");
+}
+console.log(findPhone(["Apple","Phone","Phone","Banana"]));
+
