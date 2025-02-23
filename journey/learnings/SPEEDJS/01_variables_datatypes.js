@@ -35,8 +35,8 @@ console.log(convertedNum);
 console.log(typeof convertedNum);
 
 // always check after conversion
-let num1 = "42a";
-let convertedNum1 = Number(num);
+let num1 = "ds42a";
+let convertedNum1 = Number(num1);
 console.log(convertedNum1); // NaN
 console.log(typeof convertedNum1); // Number
 
@@ -92,4 +92,3 @@ console.log(message.toLowerCase());
 
 // Template literals
 let greeting = `Hello ${fullName} !`;
-
