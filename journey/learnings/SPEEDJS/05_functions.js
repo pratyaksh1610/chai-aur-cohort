@@ -56,12 +56,14 @@ let person2 = {
 // context needs to be changed, so call is there so we can pass person2 as context
 
 // we can pass context, when using call
+// greet call krna h person1 ka , by passing context of person2
 person1.greet.call(person2);
 person1.greet.call({name : "raj"});
 
 // bind returns the function
 const bindGreet = person1.greet.bind({person2});
 console.log(bindGreet);
+// calling a function
 bindGreet();
 
 // bind returns the function
