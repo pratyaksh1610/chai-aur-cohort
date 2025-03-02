@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content:flex-start;
+    background-color: #f0f2f5;
+    height: 900px;
+}
+
+#facebook {
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+}
+
+#tagline {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    text-align:justify center;
+    font-size: 24px;
+    width: 400px;
+}
+
+#card {
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+#email, #password {
+    width: 330px;
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 17px;
+    padding: 8px 14px;
+    outline: none;
+}
+
+#email:focus, #password:focus{
+    border: 1px solid #0866ff;
+}
+
+#email {
+    margin: 10px;
+}
+#login-btn {
+    color: white;
+    margin: 10px;
+    width: 360px;
+    background-color: #0866ff;
+    padding: 10px;
+    border: 0px;
+    margin: 10px 10px 4px 10px;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#forgotPassword {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0866ff;
+    font-weight: 500;
+
+
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 90%;               
+    background-color:rgb(221, 223, 226);
+    height: 1px;
+}
+
+#create-account-btn {
+    margin: 10px;
+    color: white;
+    width: 190px;
+    background-color: rgb(66, 183, 42);
+    padding: 10px;
+    border: 0px;
+    margin: 15px 10px 10px;
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#create-account-btn:hover {
+    background-color:  #31a24c;
+}
+
+#celeb {
+    color: #1c1e21;
+    font-weight: 400;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+#celeb-link {
+    text-decoration: none;
+    color: black;
+}
+#celeb-link:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+
+td {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    padding: 0px;
+}
+
+#footer-info p {
+    display: flex inline;
+    flex-direction: row;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    margin-right: 5px;
+    justify-content:space-evenly;
+}
+
+#btn-add {
+    background-color: rgb(245, 246, 247);
+    /* border-color: rgb(204, 208, 213); */
+    border: 1px solid rgb(204, 208, 213);
+    border-radius: 2px;
+}
