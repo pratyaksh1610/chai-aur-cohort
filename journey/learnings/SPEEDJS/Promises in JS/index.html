@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promises</title>
+  </head>
+  <body>
+    <div>
+      <ul id="categoriesList"></ul>
+    </div>
+
+    <script>
+      const list = document.getElementById("categoriesList");
+      function renderToScreen(obj) {
+          for (let index = 0; index < obj.length; index++) {
+            console.log(obj[index]);
+            const listElement = document.createElement("li");
+            listElement.innerText = obj[index];
+            list.append(listElement);
+          }
+      }
+
+      const data = fetch("https://api.chucknorris.io/jokes/categories");
+      // const data = fetch("ttps://api.chucknorris.io/jokes/categories"); // catch of promise called
+      data
+        .then((res) => res.json()) // res.json() returns a promise)
+        .then(renderToScreen)
+        .catch(() => {
+          const listElement = document.createElement("li");
+          listElement.textContent = "Error while fetching data...";
+          list.appendChild(listElement);
+        })
+        .finally(() => {
+          console.log("Finally of promise called");
+        });
+    </script>
+  </body>
+</html>
